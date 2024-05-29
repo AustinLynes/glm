@@ -3,8 +3,8 @@ project "glm"
 	language "C++"
     staticruntime "off"
 
-	targetdir ("../../Build/" .. OutputDir .. "/%{prj.name}")
-	objdir ("../../Build/Intermediates/" .. OutputDir .. "/%{prj.name}")
+	targetdir ("../../build/" .. outputdir .. "/%{prj.name}")
+	objdir ("../../build/int/" .. outputdir .. "/%{prj.name}")
 	
 	includedirs
 	{
